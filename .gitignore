@@ -1,0 +1,12 @@
+# Ignore
+.*~
+*~
+/*
+
+# Except
+!/init.el
+!/init.elc
+!/conf
+!/elisp
+!/package
+!/.gitignore
