@@ -73,7 +73,6 @@
 
 (require 'auto-install)
 (setq auto-install-directory "~/.emacs.d/elisp/")
-(ignore-errors (auto-install-update-emacswiki-package-name t))
 ; install-elisp との互換のため
 (auto-install-compatibility-setup)
 ; ediff関連のバッファを1つのフレームにまとめる
